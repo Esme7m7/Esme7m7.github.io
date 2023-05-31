@@ -1,0 +1,146 @@
+                                                                                        * {
+                                                                                            background: #f2e3d0;
+                                                                                            font-family: 'Montserrat', sans-serif;
+                                                                                            font-weight: 400;
+                                                                                            font-size: 24px;
+                                                                                            line-height: 100%;
+                                                                                            /* overflow-y: hidden;*/
+                                                                                        }
+                                                                                        
+                                                                                        .logo {
+                                                                                            padding-top: 10px;
+                                                                                            padding-left: 10px;
+                                                                                            width: 10%;
+                                                                                            /*ajustar el tamaño del logo */
+                                                                                        }
+                                                                                        
+                                                                                        .main {
+                                                                                            display: flex;
+                                                                                            text-align: center;
+                                                                                            flex-direction: column;
+                                                                                            /*flex nos permite alinear esa distribución de espacio en los item que están dentro de mi interfaz */
+                                                                                            margin-bottom: 10px;
+                                                                                            margin-left: 180px;
+                                                                                        }
+                                                                                        
+                                                                                        .titulo {
+                                                                                            text-align: center;
+                                                                                            font-size: 40px;
+                                                                                            font-weight: bold;
+                                                                                        }
+                                                                                        
+                                                                                        .informacion {
+                                                                                            text-align: center;
+                                                                                        }
+                                                                                        
+                                                                                        .text-area {
+                                                                                            height: 100px;
+                                                                                            border: none;
+                                                                                            /*Color de interior texto*/
+                                                                                            margin-top: 50px;
+                                                                                            margin-left: 40%;
+                                                                                            /*la letra la transformará a minuscula*/
+                                                                                            text-transform: lowercase;
+                                                                                        }
+                                                                                        
+                                                                                         ::placeholder {
+                                                                                            color: black;
+                                                                                        }
+                                                                                        
+                                                                                        .text-area:focus {
+                                                                                            /*Para que la línea del borde no esté*/
+                                                                                            outline: none;
+                                                                                        }
+                                                                                        
+                                                                                        .mensaje {
+                                                                                            background: #b0c7dd;
+                                                                                            /* Color de fondo */
+                                                                                            background-image: url(signo-de-interrogacion.png);
+                                                                                            background-position: center;
+                                                                                            background-size: 30%;
+                                                                                            /* Centrar la imagen de fondo */
+                                                                                            background-repeat: no-repeat;
+                                                                                            /* No repetir el fondo */
+                                                                                            border: none;
+                                                                                            /* Sin borde */
+                                                                                            border-radius: 25px;
+                                                                                            /* Borde redondeado */
+                                                                                            color: #000;
+                                                                                            /* Color del texto */
+                                                                                            margin-left: 25%;
+                                                                                            /* Margen izquierdo del 10% del ancho del contenedor padre */
+                                                                                            margin-top: 20px;
+                                                                                            /* Margen superior de 20 píxeles */
+                                                                                            position: fixed;
+                                                                                            /* Posición fija en la ventana del navegador */
+                                                                                            padding-left: 20px;
+                                                                                            /* Espacio interno a la izquierda de 20 píxeles */
+                                                                                        }
+                                                                                        
+                                                                                        .mensaje :focus {
+                                                                                            outline: none;
+                                                                                        }
+                                                                                        
+                                                                                        .botones {
+                                                                                            display: flex;
+                                                                                            margin-top: 15px;
+                                                                                        }
+                                                                                        
+                                                                                        .btn-encriptar {
+                                                                                            background-color: #7c7d80;
+                                                                                            /* Color de fondo */
+                                                                                            border: 1px splid #7c7d80;
+                                                                                            /* Borde de 1 píxel con un estilo 'splid' y color */
+                                                                                            border-radius: 25px;
+                                                                                            /* Borde redondeado */
+                                                                                            color: #ffff;
+                                                                                            /* Color del texto */
+                                                                                            cursor: pointer;
+                                                                                            /* Cambiar el cursor al pasar por encima */
+                                                                                            height: 67px;
+                                                                                            /* Altura de 67 píxeles */
+                                                                                            margin-left: 40%;
+                                                                                            /* Margen izquierdo del 40% del ancho del contenedor padre */
+                                                                                        }
+                                                                                        
+                                                                                        .orden-desencriptar {
+                                                                                            display: flex;
+                                                                                            flex-direction: column;
+                                                                                        }
+                                                                                        
+                                                                                        .btn-desencriptar {
+                                                                                            background-color: #b0c7dd;
+                                                                                            border: 1px splid #b0c7dd;
+                                                                                            border-radius: 25px;
+                                                                                            color: #7c7d80;
+                                                                                            cursor: pointer;
+                                                                                            height: 67px;
+                                                                                        }
+                                                                                        
+                                                                                        .enmedio {
+                                                                                            flex: 1;
+                                                                                            justify-content: center;
+                                                                                            align-content: center;
+                                                                                        }
+                                                                                        
+                                                                                        .copiar {
+                                                                                            background-color: #7c7d80;
+                                                                                            background-size: 30%;
+                                                                                            /* Centrar la imagen de fondo */
+                                                                                            background-repeat: no-repeat;
+                                                                                            /* No repetir el fondo */
+                                                                                            border: none;
+                                                                                            /* Sin borde */
+                                                                                            border-radius: 25px;
+                                                                                            /* Borde redondeado */
+                                                                                            color: #000;
+                                                                                            /* Color del texto */
+                                                                                            margin-left: 25%;
+                                                                                            /* Margen izquierdo del 10% del ancho del contenedor padre */
+                                                                                            margin-top: 250px;
+                                                                                            /* Margen superior de 20 píxeles */
+                                                                                            position: fixed;
+                                                                                            /* Posición fija en la ventana del navegador */
+                                                                                            padding-left: 20px;
+                                                                                            /* Espacio interno a la izquierda de 20 píxeles */
+                                                                                        }
